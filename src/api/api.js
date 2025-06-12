@@ -1,6 +1,5 @@
 // api/api.js
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080";
-
+const API_BASE_URL = "https://collabify-backend-production-cb65.up.railway.app";
 
 // Generic API request function
 async function apiRequest(endpoint, options = {}) {
